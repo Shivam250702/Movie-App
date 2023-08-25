@@ -44,7 +44,7 @@ const HeroBanner = () => {
                         Millions of movies, TV shows and people to discover.
                         Explore now.
                     </span>
-                    <div className="searchInput">
+                    {/* <div className="searchInput">
                         <input
                             type="text"
                             placeholder="Search for a movie or tv show...."
@@ -52,7 +52,7 @@ const HeroBanner = () => {
                             onKeyUp={searchQueryHandler}
                         />
                         <button>Search</button>
-                    </div>
+                    </div> */}
                 </div>
             </ContentWrapper>
         </div>
